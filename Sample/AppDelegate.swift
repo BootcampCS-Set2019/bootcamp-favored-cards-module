@@ -6,7 +6,9 @@
 //  Copyright © 2019 BootcampCS-Set2019. All rights reserved.
 //
 
-import UIKit
+import FavoredCardsModule
+import Entities
+import Repositories
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        let window = UIWindow(frame: UIScreen.main.bounds)
+
+        let provider = DataProvider(api: API(session: URLSession.shared))
+
+        let viewController = FavoredCardsModuleBuilder.buildRoot(provider: provider)
+        viewController.delegate = self
+        window.rootViewController = viewController
+
+        self.window = window
+        window.makeKeyAndVisible()
+
         return true
     }
 
@@ -26,4 +40,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {}
 
     func applicationWillTerminate(_ application: UIApplication) {}
+}
+
+extension AppDelegate: FavoredCardsDelegate {
+    func didTapCard(card: Card) {
+
+    }
 }

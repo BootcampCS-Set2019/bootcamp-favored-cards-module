@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0029582354A256009CCEA2 /* FavoredCardsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029572354A255009CCEA2 /* FavoredCardsModuleBuilder.swift */; };
+		BD00296A2354A25C009CCEA2 /* FavoredCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD00295B2354A25C009CCEA2 /* FavoredCardsPresenter.swift */; };
+		BD00296B2354A25C009CCEA2 /* FavoredCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD00295D2354A25C009CCEA2 /* FavoredCardsViewController.swift */; };
+		BD00296C2354A25C009CCEA2 /* CardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029602354A25C009CCEA2 /* CardCollectionCell.swift */; };
+		BD00296D2354A25C009CCEA2 /* CardSetTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029612354A25C009CCEA2 /* CardSetTableCell.swift */; };
+		BD00296E2354A25C009CCEA2 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029632354A25C009CCEA2 /* AlignedCollectionViewFlowLayout.swift */; };
+		BD00296F2354A25C009CCEA2 /* FavoredCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029642354A25C009CCEA2 /* FavoredCardsView.swift */; };
+		BD0029702354A25C009CCEA2 /* DeckTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029662354A25C009CCEA2 /* DeckTableHeader.swift */; };
+		BD0029712354A25C009CCEA2 /* CardCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029672354A25C009CCEA2 /* CardCollectionHeader.swift */; };
+		BD0029722354A25C009CCEA2 /* FavoredViewTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029692354A25C009CCEA2 /* FavoredViewTypes.swift */; };
+		BD00297B2354AF63009CCEA2 /* Entities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00297A2354AF63009CCEA2 /* Entities.framework */; };
+		BD00297D2354AF66009CCEA2 /* Repositories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00297C2354AF66009CCEA2 /* Repositories.framework */; };
+		BD00297E2354AFB0009CCEA2 /* Repositories.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD00297C2354AF66009CCEA2 /* Repositories.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD00297F2354AFB0009CCEA2 /* Entities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD00297A2354AF63009CCEA2 /* Entities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BD47B460234E627500E189B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD47B45F234E627500E189B9 /* AppDelegate.swift */; };
-		BD47B462234E627500E189B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD47B461234E627500E189B9 /* ViewController.swift */; };
-		BD47B465234E627500E189B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B463234E627500E189B9 /* Main.storyboard */; };
 		BD47B467234E627600E189B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B466234E627600E189B9 /* Assets.xcassets */; };
 		BD47B46A234E627600E189B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B468234E627600E189B9 /* LaunchScreen.storyboard */; };
 		BD47B46F234E632D00E189B9 /* FavoredCardsModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD604B38234E1BE700F091F2 /* FavoredCardsModule.framework */; };
@@ -43,6 +55,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BD00297E2354AFB0009CCEA2 /* Repositories.framework in Embed Frameworks */,
+				BD00297F2354AFB0009CCEA2 /* Entities.framework in Embed Frameworks */,
 				BD47B470234E632D00E189B9 /* FavoredCardsModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -51,10 +65,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD0029572354A255009CCEA2 /* FavoredCardsModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoredCardsModuleBuilder.swift; sourceTree = "<group>"; };
+		BD00295B2354A25C009CCEA2 /* FavoredCardsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoredCardsPresenter.swift; sourceTree = "<group>"; };
+		BD00295D2354A25C009CCEA2 /* FavoredCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoredCardsViewController.swift; sourceTree = "<group>"; };
+		BD0029602354A25C009CCEA2 /* CardCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionCell.swift; sourceTree = "<group>"; };
+		BD0029612354A25C009CCEA2 /* CardSetTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSetTableCell.swift; sourceTree = "<group>"; };
+		BD0029632354A25C009CCEA2 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		BD0029642354A25C009CCEA2 /* FavoredCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoredCardsView.swift; sourceTree = "<group>"; };
+		BD0029662354A25C009CCEA2 /* DeckTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableHeader.swift; sourceTree = "<group>"; };
+		BD0029672354A25C009CCEA2 /* CardCollectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionHeader.swift; sourceTree = "<group>"; };
+		BD0029692354A25C009CCEA2 /* FavoredViewTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoredViewTypes.swift; sourceTree = "<group>"; };
+		BD00297A2354AF63009CCEA2 /* Entities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Entities.framework; path = Carthage/Build/iOS/Entities.framework; sourceTree = "<group>"; };
+		BD00297C2354AF66009CCEA2 /* Repositories.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repositories.framework; path = Carthage/Build/iOS/Repositories.framework; sourceTree = "<group>"; };
 		BD47B45D234E627500E189B9 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47B45F234E627500E189B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD47B461234E627500E189B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD47B464234E627500E189B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD47B466234E627600E189B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD47B469234E627600E189B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD47B46B234E627600E189B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +96,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD47B46F234E632D00E189B9 /* FavoredCardsModule.framework in Frameworks */,
+				BD00297B2354AF63009CCEA2 /* Entities.framework in Frameworks */,
+				BD00297D2354AF66009CCEA2 /* Repositories.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +119,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0029592354A25C009CCEA2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BD00295A2354A25C009CCEA2 /* Presenter */,
+				BD00295C2354A25C009CCEA2 /* Controller */,
+				BD00295E2354A25C009CCEA2 /* View */,
+				BD0029682354A25C009CCEA2 /* Helpers */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BD00295A2354A25C009CCEA2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BD00295B2354A25C009CCEA2 /* FavoredCardsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BD00295C2354A25C009CCEA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD00295D2354A25C009CCEA2 /* FavoredCardsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD00295E2354A25C009CCEA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD00295F2354A25C009CCEA2 /* Cells */,
+				BD0029622354A25C009CCEA2 /* Utils */,
+				BD0029642354A25C009CCEA2 /* FavoredCardsView.swift */,
+				BD0029652354A25C009CCEA2 /* Headers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD00295F2354A25C009CCEA2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BD0029602354A25C009CCEA2 /* CardCollectionCell.swift */,
+				BD0029612354A25C009CCEA2 /* CardSetTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BD0029622354A25C009CCEA2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD0029632354A25C009CCEA2 /* AlignedCollectionViewFlowLayout.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD0029652354A25C009CCEA2 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BD0029662354A25C009CCEA2 /* DeckTableHeader.swift */,
+				BD0029672354A25C009CCEA2 /* CardCollectionHeader.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BD0029682354A25C009CCEA2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BD0029692354A25C009CCEA2 /* FavoredViewTypes.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BD0029792354AF63009CCEA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD00297C2354AF66009CCEA2 /* Repositories.framework */,
+				BD00297A2354AF63009CCEA2 /* Entities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD47B45E234E627500E189B9 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
 				BD47B45F234E627500E189B9 /* AppDelegate.swift */,
-				BD47B461234E627500E189B9 /* ViewController.swift */,
-				BD47B463234E627500E189B9 /* Main.storyboard */,
 				BD47B466234E627600E189B9 /* Assets.xcassets */,
 				BD47B468234E627600E189B9 /* LaunchScreen.storyboard */,
 				BD47B46B234E627600E189B9 /* Info.plist */,
@@ -113,6 +218,7 @@
 				BD604B45234E1BE700F091F2 /* FavoredCardsModuleTests */,
 				BD47B45E234E627500E189B9 /* Sample */,
 				BD604B39234E1BE700F091F2 /* Products */,
+				BD0029792354AF63009CCEA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				BD604B3B234E1BE700F091F2 /* FavoredCardsModule.h */,
+				BD0029572354A255009CCEA2 /* FavoredCardsModuleBuilder.swift */,
+				BD0029592354A25C009CCEA2 /* Root */,
 				BD604B3C234E1BE700F091F2 /* Info.plist */,
 			);
 			path = FavoredCardsModule;
@@ -232,6 +340,7 @@
 					};
 					BD604B37234E1BE700F091F2 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					BD604B40234E1BE700F091F2 = {
 						CreatedOnToolsVersion = 10.3;
@@ -265,7 +374,6 @@
 			files = (
 				BD47B46A234E627600E189B9 /* LaunchScreen.storyboard in Resources */,
 				BD47B467234E627600E189B9 /* Assets.xcassets in Resources */,
-				BD47B465234E627500E189B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +483,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD47B462234E627500E189B9 /* ViewController.swift in Sources */,
 				BD47B460234E627500E189B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +491,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0029702354A25C009CCEA2 /* DeckTableHeader.swift in Sources */,
+				BD0029712354A25C009CCEA2 /* CardCollectionHeader.swift in Sources */,
+				BD0029722354A25C009CCEA2 /* FavoredViewTypes.swift in Sources */,
+				BD00296F2354A25C009CCEA2 /* FavoredCardsView.swift in Sources */,
+				BD00296A2354A25C009CCEA2 /* FavoredCardsPresenter.swift in Sources */,
+				BD00296D2354A25C009CCEA2 /* CardSetTableCell.swift in Sources */,
+				BD00296C2354A25C009CCEA2 /* CardCollectionCell.swift in Sources */,
+				BD00296E2354A25C009CCEA2 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				BD0029582354A256009CCEA2 /* FavoredCardsModuleBuilder.swift in Sources */,
+				BD00296B2354A25C009CCEA2 /* FavoredCardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,14 +528,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD47B463234E627500E189B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD47B464234E627500E189B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD47B468234E627600E189B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,9 +542,14 @@
 		BD47B46D234E627600E189B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +565,14 @@
 		BD47B46E234E627600E189B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -591,6 +710,7 @@
 		BD604B4D234E1BE700F091F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -609,6 +729,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bootcamp.set2019.FavoredCardsModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -617,6 +738,7 @@
 		BD604B4E234E1BE700F091F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -643,6 +765,7 @@
 		BD604B50234E1BE700F091F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
@@ -662,6 +785,7 @@
 		BD604B51234E1BE700F091F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
