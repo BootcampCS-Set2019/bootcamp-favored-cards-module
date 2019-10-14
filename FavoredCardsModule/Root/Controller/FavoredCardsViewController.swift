@@ -40,7 +40,6 @@ public class FavoredCardsViewController: UIViewController {
 
     private func bringData() {
         self.mainView.loadingIndicator.startAnimating()
-        
     }
 
     @objc func retryButtonAction(sender: UIButton!) {
